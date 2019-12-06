@@ -1,5 +1,10 @@
 call plug#begin()
-Plug 'valloric/youcompleteme'
+
+Plug 'yggdroot/indentline'
+
+Plug 'tpope/vim-surround'
+
+Plug 'neoclide/coc.nvim'
 
 Plug 'scrooloose/nerdtree'
 

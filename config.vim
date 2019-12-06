@@ -3,6 +3,9 @@ syntax on
 
 "show line numbers
 "set number
+set shiftwidth=4
+
+set smarttab
 
 "sets cursor line to always be number 0 
 set relativenumber
@@ -27,9 +30,11 @@ set pastetoggle=<f4>
 
 "makes no swap file
 set noswapfile
+"sets background
+set background=dark
 
 "sets colorscheme
-colorscheme molokai
+colorscheme solarized 
 
 "Overrides default color for error sign to be red bg and white fg
 highlight Error guifg=#FFFFFF guibg=#FF0000
@@ -47,3 +52,5 @@ highlight SignColumn guibg=#A9A9A9
 
 "Disable matching paren highlighting
 let loaded_matchparen = 0
+
+
